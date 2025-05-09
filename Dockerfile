@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM public.ecr.aws/docker/library/node:alpine
 
 WORKDIR /express-app
 
