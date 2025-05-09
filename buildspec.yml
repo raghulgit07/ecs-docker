@@ -7,7 +7,7 @@ phases:
       - aws --version
       - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin 842676016494.dkr.ecr.ap-south-1.amazonaws.com
       - REPOSITORY_URI=842676016494.dkr.ecr.ap-south-1.amazonaws.com/mydockerapp
-      - IMAGE_TAG=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)  # First 7 chars of commit hash
+      - IMAGE_TAG=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)  
   build:
     commands:
       - echo Build started on `date`
