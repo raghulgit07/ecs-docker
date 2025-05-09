@@ -1,5 +1,5 @@
 {
-  "name": "express-app",
+  "name": "my-ecs-express-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gauri17-pro/aws-ecs-docker.git"
+    "url": "https://github.com/raghulgit07/ecs-docker.git"
   },
   "private": true,
   "keywords": [],
